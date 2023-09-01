@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: build and deploy
-        uses: shay-demo/actions/backend/build_and_deploy@main
+        uses: shay-demo/actions/actions/backend/build_and_deploy@main
         with:
           unit_test_path: unit_tests/unit_tests.py
           unit_test_args: ''
